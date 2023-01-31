@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.nav
+
+h1 {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+h3 {
+    color: rgb(189, 189, 189);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    color: rgb(189, 189, 189);
+    font-size: 12px;
+}
+
+img {
+    position: relative;
+    height: auto; 
+    width: 1200px; 
+    max-width: 100%;
+}
+
