@@ -20,7 +20,9 @@
             background-color: #000000;
             color: #fff;
             text-align: left;
-            padding: 50px;
+            padding-left: 10%;
+            padding-top: 5%;
+            padding-bottom: 1%;
         }
 
         .nav h1 {
@@ -40,8 +42,9 @@
 
         .gallery {
             display: grid;
-            grid-template-columns: repeat(2, minmax(300px, 1fr));
+            grid-template-columns: repeat(2, minmax(200px, 1fr));
             gap: 20px;
+            padding: 40px;
             margin-top: 20px;
         }
 
@@ -90,6 +93,7 @@
         <h1>Photography</h1>
         <h3><a href="https://olesturchyn.com" target="_blank" style="color: #cbcbcb; ">Oles Turchyn</a></h3>
         <br/>
+        <p>Some of my favourite photos from recent travels</p>
     </div>
     
     <div class="main">
@@ -123,6 +127,10 @@
                 <h4>British Columbia</h4>
             </div>
             <div class="gallery-item">
+              <img data-src="./images/windsor1.JPG" alt="Windsor, Ontario" onclick="openModal('./images/windsor1.JPG')">
+              <h4>Windsor, Ontario</h4>
+          </div>
+            <div class="gallery-item">
                 <img data-src="./images/pacific.JPG" alt="Vancouver, British Columbia" onclick="openModal('./images/pacific.JPG')">
                 <h4>Vancouver, British Columbia</h4>
             </div>
@@ -130,6 +138,14 @@
                 <img data-src="./images/bird.JPG" alt="Bloedel Conservatory, British Columbia" onclick="openModal('./images/bird.JPG')">
                 <h4>Bloedel Conservatory, British Columbia</h4>
             </div>
+            <div class="gallery-item">
+              <img data-src="./images/purple.JPG" alt="Belle River, Ontario" onclick="openModal('./images/purple.JPG')">
+              <h4>Belle River, Ontario</h4>
+          </div>
+          <div class="gallery-item">
+            <img data-src="./images/cherry.JPG" alt="Vancouver, British Columbia" onclick="openModal('./images/cherry.JPG')">
+            <h4>Vancouver, British Columbia</h4>
+        </div>
             <div class="gallery-item">
                 <img data-src="./images/vancouverskyline.JPG" alt="Vancouver, British Columbia" onclick="openModal('./images/vancouverskyline.JPG')">
                 <h4>Vancouver, British Columbia</h4>
@@ -142,42 +158,34 @@
                 <img data-src="./images/library2.JPG" alt="Vancouver Library, British Columbia" onclick="openModal('./images/library2.JPG')">
                 <h4>Vancouver Library, British Columbia</h4>
             </div>
-            <div class="gallery-item">
-                <img data-src="./images/windsor1.JPG" alt="Windsor, Ontario" onclick="openModal('./images/windsor1.JPG')">
-                <h4>Windsor, Ontario</h4>
-            </div>
-            <div class="gallery-item">
-                <img data-src="./images/cherry.JPG" alt="Vancouver, British Columbia" onclick="openModal('./images/cherry.JPG')">
-                <h4>Vancouver, British Columbia</h4>
-            </div>
+          
             <div class="gallery-item">
                 <img data-src="./images/lighthouse.JPG" alt="Northern Vancouver" onclick="openModal('./images/lighthouse.JPG')">
                 <h4>Northern Vancouver</h4>
             </div>
-            <div class="gallery-item">
-                <img data-src="./images/toronto1.JPG" alt="Toronto, Ontario" onclick="openModal('./images/toronto1.JPG')">
-                <h4>Toronto, Ontario</h4>
-            </div>
+            
             <div class="gallery-item">
                 <img data-src="./images/tennis.JPG" alt="Ottawa, Ontario" onclick="openModal('./images/tennis.JPG')">
                 <h4>Ottawa, Ontario</h4>
             </div>
             <div class="gallery-item">
+              <img data-src="./images/canada.JPG" alt="Algonquin Provincial Park, Ontario" onclick="openModal('./images/canada.JPG')">
+              <h4>Algonquin Provincial Park, Ontario</h4>
+          </div>
+            <div class="gallery-item">
                 <img data-src="./images/tennis2.JPG" alt="Manotick, Ontario" onclick="openModal('./images/tennis2.JPG')">
                 <h4>Manotick, Ontario</h4>
             </div>
             <div class="gallery-item">
-                <img data-src="./images/canada.JPG" alt="Algonquin Provincial Park, Ontario" onclick="openModal('./images/canada.JPG')">
-                <h4>Algonquin Provincial Park, Ontario</h4>
-            </div>
+              <img data-src="./images/toronto1.JPG" alt="Toronto, Ontario" onclick="openModal('./images/toronto1.JPG')">
+              <h4>Toronto, Ontario</h4>
+          </div>
+            
             <div class="gallery-item">
                 <img data-src="./images/hikingboy.JPG" alt="Algonquin Provincial Park, Ontario" onclick="openModal('./images/hikingboy.JPG')">
                 <h4>Algonquin Provincial Park, Ontario</h4>
             </div>
-            <div class="gallery-item">
-                <img data-src="./images/purple.JPG" alt="Belle River, Ontario" onclick="openModal('./images/purple.JPG')">
-                <h4>Belle River, Ontario</h4>
-            </div>
+            
         </div>
     </div>
 
